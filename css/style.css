@@ -139,7 +139,7 @@
 }
 
 .hero-4{
-  background-image: url("../images/imac-colors.jpeg");
+  background-image:url("../images/imac-colors.jpeg");
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,6 +151,7 @@
   background-image:url("../images/watch-series-6.jpeg") ;
   height: 60vh;
   background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   color: white;
   text-align: center;
@@ -176,24 +177,43 @@
 
 .hero-6{
   background-image:url("../images/promo_1.jpeg") ;
-  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  color: white;
+  height: 60vh;
   text-align: center;
- 
-  
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100%;
+  height: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   
 }
 
 .hero-7{
   background-image:url("../images/promo_apple_tv.jpeg") ;
-  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  color: black;
+  background-color:rgb(246, 245, 245);
+  height: 60vh;
   text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100%;
+  height: 590px;
   
+}
+.hero-7 h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .heros-1{
@@ -205,17 +225,72 @@
   height: 60vh;
   background-position: center;
   width: 100%;
-  color: black;
+  color: white;
   text-align: center;
+  height: 590px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
   
 }
 
 .hero-9{
   background-image: url("../images/promo_morning_show.jpeg");
-  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  color: black;
+  height: 60vh;
   text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100%;
+  height: 590px;
+ 
+}
+.hero-9 h1{
+  font-size: 46px;
+  margin-bottom: 10px;
+  color: rgb(247, 252, 251);
+  font-weight: bold;
+}
+
+.hero-9 h2{
+  font-size: 46px;
+  margin-bottom: 10px;
+  color: rgb(255, 208, 0);
+  font-weight: bold;
+}
+
+footer {
+  background-color: #fbfbfbf2;
+  color: grey;
+}
+.Appleinforma{
+  margin: 20px 400px;
+  font-size: 13px;
+  
+}
+.Appleinforma1{
+  display: flex;
+  justify-content: space-around;
+  font-weight: 100;
+  
+
+}
+.Apple-list{
+  list-style: none;
+  color:grey;
+  line-height: 25px;
+  
+  
+}
+.Apple-list li{
+  cursor: pointer;
+}
+.Apple-list li:hover{
+  color: lightgrey;
  
 }
